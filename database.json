@@ -1,0 +1,168 @@
+{
+    "users": [
+        {
+            "id": 1, 
+            "fullName": "Mallory Treutel",
+            "email": "mtreutel@gmail.com"
+        },
+        {
+            "id": 2, 
+            "fullName": "Susana Howe",
+            "email": "showe@yahoo.com"
+        },
+        {
+            "id": 3,
+            "fullName": "Otha Williamson",
+            "email": "owilliamson@outlook.com"
+        },
+        {
+            "id": 4,
+            "fullName": "Nadia Schmidt",
+            "email": "nschmidt@outlook.com"
+        },
+        {
+            "id": 5,
+            "fullName": "Felipe Erdman",
+            "email": "ferdman@gmail.com"
+        },
+        {
+            "id": 6,
+            "fullName": "Micheal Gulgowski",
+            "email": "mgulgowski@yahoo.com"
+        }
+        
+    ],
+    "customers": [
+        {
+            "id": 1, 
+            "loyaltyNumber": 77148,
+            "userId": 3
+
+        },
+        {
+            "id": 2, 
+            "loyaltyNumber": 14034,
+            "userId": 2
+
+        },
+        {
+            "id": 3, 
+            "loyaltyNumber": 95170,
+            "userId": 1
+
+        }
+    ],
+    "employees": [
+        {
+            "id": 1, 
+            "startDate": "Mon Nov 21 2022 07:37:26 GMT-0600 (Central Standard Time)",
+            "payRate": "9 dollars per hour",
+            "userId": 4
+        },
+        {
+            "id": 2, 
+            "startDate": "Fri Oct 31 2022 13:19:02 GMT-0600 (Central Standard Time)",
+            "payRate": "10 dollars per hour",
+            "userId": 5
+        },
+        {
+            "id": 3, 
+            "startDate": "Thu Nov 28 2022 18:19:12 GMT-0600 (Central Standard Time)",
+            "payRate": "8 dollars per hour",
+            "userId": 6
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address": "2550 West Side Avenue, Newark, 07102, NJ",
+            "squareft": "10,000 square feet"
+        },
+        {
+            "id": 2,
+            "address": "1349 Trouser Leg Road, Milwaukee, 53202, WI",
+            "squareft": "3,000 square feet"
+        },
+        {
+            "id": 3,
+            "address": "2867 Deer Haven Drive, Greenville, 29601, SC",
+            "squareft": "6,000 square feet"
+            
+        }
+    ],
+    "products": [
+        {
+            "id": 1, 
+            "name": "Rock Candy" , 
+            "price": 2.50, 
+            "typeId": 1, 
+            "locationId": 3
+        },
+        {
+            "id": 2, 
+            "name": "Milk Chocolate Stars" , 
+            "price": 2.00, 
+            "typeId": 2, 
+            "locationId": 3
+        },
+        {
+            "id": 3, 
+            "name": "Gummy Bears" , 
+            "price": 1.50, 
+            "typeId": 3, 
+            "locationId": 3
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Hard Candies"
+        },
+        {
+            "id": 2,
+            "type": "Chocolates"
+        },
+        {
+            "id": 3,
+            "type": "Gummies"
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1, 
+            "customerId": 3, 
+            "productId": 2, 
+            "quantity": 4
+        },
+        {
+            "id": 2, 
+            "customerId": 2, 
+            "productId": 3, 
+            "quantity": 3
+        },
+        {
+            "id": 3, 
+            "customerId": 1, 
+            "productId": 1, 
+            "quantity": 1
+        },
+        {
+            "id": 4, 
+            "customerId": 1, 
+            "productId": 3, 
+            "quantity": 2
+        },
+        {
+            "id": 5, 
+            "customerId": 3, 
+            "productId": 3, 
+            "quantity": 2
+        },
+        {
+            "id": 6, 
+            "customerId": 2, 
+            "productId": 3, 
+            "quantity": 1
+        }
+    ]
+}
