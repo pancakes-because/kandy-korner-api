@@ -3,32 +3,38 @@
         {
             "id": 1, 
             "fullName": "Mallory Treutel",
-            "email": "mtreutel@gmail.com"
+            "email": "mtreutel@gmail.com", 
+            "isStaff": false
         },
         {
             "id": 2, 
             "fullName": "Susana Howe",
-            "email": "showe@yahoo.com"
+            "email": "showe@yahoo.com",
+            "isStaff": false
         },
         {
             "id": 3,
             "fullName": "Otha Williamson",
-            "email": "owilliamson@outlook.com"
+            "email": "owilliamson@outlook.com",
+            "isStaff": false
         },
         {
             "id": 4,
             "fullName": "Nadia Schmidt",
-            "email": "nschmidt@outlook.com"
+            "email": "nschmidt@outlook.com",
+            "isStaff": true 
         },
         {
             "id": 5,
             "fullName": "Felipe Erdman",
-            "email": "ferdman@gmail.com"
+            "email": "ferdman@gmail.com",
+            "isStaff": true
         },
         {
             "id": 6,
             "fullName": "Micheal Gulgowski",
-            "email": "mgulgowski@yahoo.com"
+            "email": "mgulgowski@yahoo.com",
+            "isStaff": true
         }
         
     ],
@@ -87,7 +93,6 @@
             "id": 3,
             "address": "2867 Deer Haven Drive, Greenville, 29601, SC",
             "squareft": "6,000 square feet"
-            
         }
     ],
     "products": [
